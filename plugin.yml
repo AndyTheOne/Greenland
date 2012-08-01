@@ -1,0 +1,126 @@
+name: Survival
+main: main.java.hultberg.sur.Hultberg.Hultberg
+version: 1.2.5-R4.0
+commands:
+    tp:
+        description: Teleport to user.
+        usage: |
+               /<command> [username]
+    tphere:
+        description: Teleport a user to you.
+        usage: |
+               /<command> [username]
+    setspawn:
+        description: Set new spawn.
+        usage: |
+               /<command>
+    home:
+        description: Goto home.
+        usage: |
+               /<command>
+    sethome:
+        description: Set new home.
+        usage: |
+               /<command>
+    mod:
+        description: Moderate a user's status (ADMIN).
+        usage: |
+               /<command> [Admin/Moderator/Guest/User] [username]
+    reg:
+        description: Se registration info!
+        usage: |
+               /<command>
+    protect:
+        description: Protect a area.
+        aliases:
+          - pt
+        usage: |
+               /<command> [username]
+    unprotect:
+        description: UnProtect a area.
+        aliases:
+          - upt
+        usage: |
+               /<command>
+    c:
+        description: Adminchat.
+        usage: |
+               /<command>
+    t:
+        description: Trade chat.
+        usage: |
+               /<command>
+    kick:
+        description: Kick a user.
+        usage: |
+               /<command> [username] [reason]
+    ban:
+        description: Ban a user.
+        usage: |
+               /<command> [username] [reason]
+    add:
+        description: Add a user.
+        usage: |
+               /<command> [username]
+    lw:
+        description: List your warnings.
+        usage: |
+               /<command> [username]
+    low:
+        description: List others warnings.
+        usage: |
+               /<command> [username]
+    group:
+        description: Group command. 
+        usage: |
+               /<command> [command]
+    gh:
+        description: Group chat command. 
+        usage: |
+               /<command> [command]
+    stuck:
+        description: Stuck.
+        aliases:
+          - s
+        usage: |
+               /<command>
+    msg:
+        description: Send a PM/IM.
+        aliases:
+          - m
+          - pm
+          - im
+        usage: |
+               /<command> [to] [msg]
+    g:
+        description: Global chat. 
+        usage: |
+               /<command> [msg]
+    spawn:
+        description: Spawn. 
+        usage: |
+               /<command>
+    reloaduser:
+        description: Reload your userfile. 
+        usage: |
+               /<command>
+    i:
+        description: Spawn a item. 
+        usage: |
+               /<command> [item] [amount]
+    unban:
+        description: Unban a user.
+        usage: |
+               /<command> [username]
+    who:
+        description: See who online.
+        usage: |
+               /<command>
+    sh:
+        description: Stab chat.
+        usage: |
+               /<command> [melding]
+    warn:
+        description: Warn a member.
+        usage: |
+               /<command> [username] [reason]
